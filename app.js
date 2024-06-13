@@ -24,11 +24,8 @@ menu_item.forEach((item) => {
 	});
 });
 
-<script>
         window.addEventListener('load', function() {
             var music = document.getElementById('background-music');
             music.play().catch(function(error) {
                 console.log('Autoplay was prevented:', error);
-            });
-        });
-</script>
+});
