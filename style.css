@@ -667,6 +667,31 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
+
+/* CSS untuk pemutar audio */
+audio {
+    width: 100%; /* lebar pemutar audio */
+    margin: 20px 0; /* jarak antara pemutar audio dan konten lain */
+}
+
+/* CSS untuk kontrol audio */
+audio::-webkit-media-controls-panel {
+    background-color: #f5f5f5; /* warna latar belakang kontrol audio */
+    color: #333; /* warna teks kontrol audio */
+}
+
+/* CSS untuk tombol pemutar audio */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+    color: #007bff; /* warna tombol putar dan jeda */
+}
+
+/* CSS untuk kontrol audio saat dihover */
+audio::-webkit-media-controls-play-button:hover,
+audio::-webkit-media-controls-pause-button:hover {
+    color: #0056b3; /* warna tombol putar dan jeda saat dihover */
+}
+
 	/* End contact  */
 }
 /* End Media Query For Tablet */
