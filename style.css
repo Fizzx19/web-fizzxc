@@ -670,9 +670,11 @@ p {
         /* End contact  */
 	
 	/* audio content  */
-	 /* CSS untuk menyembunyikan elemen audio */
+	 /* CSS untuk elemen audio */
         audio {
-            display: none; /* Sembunyikan kontrol audio */
+            display: block; /* Menampilkan kontrol audio */
+            margin: 20px auto; /* Menengahkannya secara horizontal */
+            width: 300px; /* Atur lebar elemen audio */
         }
 
         /* CSS untuk tombol play */
@@ -686,6 +688,7 @@ p {
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            margin-top: 20px; /* Tambahkan jarak atas */
         }
 
         /* Hover efek untuk tombol */
