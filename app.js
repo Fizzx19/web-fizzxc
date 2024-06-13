@@ -23,3 +23,12 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+<script>
+        window.addEventListener('load', function() {
+            var music = document.getElementById('background-music');
+            music.play().catch(function(error) {
+                console.log('Autoplay was prevented:', error);
+            });
+        });
+</script>
