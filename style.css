@@ -667,31 +667,33 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
+        /* End contact  */
+	
+	/* audio content  */
+	 /* CSS untuk menyembunyikan elemen audio */
+        audio {
+            display: none; /* Sembunyikan kontrol audio */
+        }
 
-/* CSS untuk pemutar audio */
-audio {
-    width: 100%; /* lebar pemutar audio */
-    margin: 20px 0; /* jarak antara pemutar audio dan konten lain */
-}
+        /* CSS untuk tombol play */
+        #play-music {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
 
-/* CSS untuk kontrol audio */
-audio::-webkit-media-controls-panel {
-    background-color: #f5f5f5; /* warna latar belakang kontrol audio */
-    color: #333; /* warna teks kontrol audio */
-}
-
-/* CSS untuk tombol pemutar audio */
-audio::-webkit-media-controls-play-button,
-audio::-webkit-media-controls-pause-button {
-    color: #007bff; /* warna tombol putar dan jeda */
-}
-
-/* CSS untuk kontrol audio saat dihover */
-audio::-webkit-media-controls-play-button:hover,
-audio::-webkit-media-controls-pause-button:hover {
-    color: #0056b3; /* warna tombol putar dan jeda saat dihover */
-}
-
+        /* Hover efek untuk tombol */
+        #play-music:hover {
+            background-color: #0056b3;
+        }
+	/* End audio  */
+	
 	/* End contact  */
 }
 /* End Media Query For Tablet */
