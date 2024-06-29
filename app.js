@@ -24,6 +24,10 @@ menu_item.forEach((item) => {
 	});
 });
 
+<head>
+  <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeXEgQqAAAAAHdrEi3-kzLoeDZmBa-9cTQ95ttm"></script>
+  <!-- Your code -->
+</head>
         window.addEventListener('load', function() {
             var music = document.getElementById('background-music');
             music.play().catch(function(error) {
