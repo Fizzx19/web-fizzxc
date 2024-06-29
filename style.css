@@ -731,3 +731,10 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6LeXEgQqAAAAAHdrEi3-kzLoeDZmBa-9cTQ95ttm', {action: 'LOGIN'});
+    });
+  }
