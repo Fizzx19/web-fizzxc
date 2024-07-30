@@ -29,3 +29,5 @@ menu_item.forEach((item) => {
             music.play().catch(function(error) {
                 console.log('Autoplay was prevented:', error);
 });
+		import { Analytics } from "@vercel/analytics/react"
+	});
